@@ -1013,6 +1013,7 @@ void SwitchSectionAlarm(MODE* m) {
 		m->AL_day = 0;
 		m->AL_hour = 1;
 	}
+	// successful
 }
 
 void IncreaseAlarmValue(ALARM* r, MODE* m) {
