@@ -632,7 +632,7 @@ void SwitchSection(MODE* md) {
 		(*md).TS_day = 1;
 	}
 
-	/* 오류 발견 !!*/
+	/* 오류 발견 !! 및 수정*/
 	else if ((*md).TS_day == 1) {
 		(*md).TS_day = 0;
 		(*md).TS_second = 1;
@@ -1008,7 +1008,7 @@ void SwitchSectionAlarm(MODE* m) {
 		m->AL_minute = 0;
 		m->AL_month = 1;
 	}
-	/* 오류 발견!! */
+	/* 오류 발견!! 및 수정*/
 	else if (m->AL_month == 1) {
 		m->AL_month = 0;
 		m->AL_day = 1;
